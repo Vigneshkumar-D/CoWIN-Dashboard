@@ -1,0 +1,19 @@
+/* Write your CSS here */
+.vaccination-by-age-bg-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #1c1c2b;
+  padding: 10px;
+  /* width: 100%; */
+  width: 80vw;
+  margin: 20px;
+  border-radius: 10px;
+  height: 400px;
+  /* height: 400px; */
+}
+.responsive-con {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

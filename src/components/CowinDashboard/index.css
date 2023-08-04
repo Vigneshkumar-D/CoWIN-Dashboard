@@ -1,0 +1,61 @@
+/* Write your CSS here */
+.covin-dashboard-bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #161625;
+  flex-grow: 1;
+}
+.sub-container {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  flex-grow: 1;
+}
+.header-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 20px;
+}
+.india-title {
+  font-size: 30px;
+  font-family: 'Roboto';
+  font-weight: 600;
+  color: #cbd5e1;
+  margin-left: 10px;
+}
+.logo {
+  height: 50px;
+  width: 50px;
+}
+.title {
+  font-size: 30px;
+  font-family: 'Roboto';
+  font-weight: 600;
+  color: #2cc6c6;
+  margin-left: 10px;
+}
+.chart-view-container {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+}
+/* .dashboard-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  width: 80%;
+} */
+.loader-container {
+  display: flex;
+  margin-top: 35%;
+  align-self: center;
+}
